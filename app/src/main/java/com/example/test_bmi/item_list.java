@@ -17,6 +17,15 @@ public class item_list {
         this.weight = weight;
     }
 
+    public String getBmi() {
+        return bmi;
+    }
+
+    public void setBmi(String bmi) {
+        this.bmi = bmi;
+    }
+
     String height;
     String weight;
+    String bmi;
 }
